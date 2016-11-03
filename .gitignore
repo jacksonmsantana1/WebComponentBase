@@ -3,3 +3,4 @@ yarn-error.log
 /lib/
 /dist/client-bundle.js*
 /node_modules/
+/dist/
