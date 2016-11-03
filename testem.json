@@ -1,0 +1,10 @@
+{
+  "framework": "mocha",
+  "before_tests": "webpack -p -bail --config webpack.test.babel.js",
+  "test_page": "./test/index.html",
+  "launch_in_dev": [ "Chrome"],
+  "serve_files": [
+    "test/*.spec.js",
+    "src/**/*.js"
+  ]
+}
